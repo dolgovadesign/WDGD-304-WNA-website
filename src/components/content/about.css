@@ -1,0 +1,48 @@
+.section {
+    background-color: #ebe8e5;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .section-content {
+        flex-direction: column;
+    }
+
+    .right-section {
+        margin-top: 15px;
+    }
+}
+
+.section-name {
+    font-size: 21px;
+    font-family: 'Aclonica', sans-serif;
+    padding: 50px 30px 5px 50px;
+    color: #3c3936;
+}
+
+.my-photo {
+    display: block;
+    margin: auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 21px;
+}
+
+.about-me {
+    margin-left: 50px;
+}
+
+.left-section {
+    flex-grow: 1;
+}
+
+.right-section {
+    flex-grow: 2;
+}

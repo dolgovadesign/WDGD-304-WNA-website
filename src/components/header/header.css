@@ -1,0 +1,30 @@
+.header-section {
+    position: relative;
+}
+
+.header-image {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.creators-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 77px;
+    font-weight: 600;
+    text-shadow: 1px 3px 0 #3d3c3b, 1px 13px 5px #3d3c3b;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.creators-name p {
+    margin: 15px;
+}
