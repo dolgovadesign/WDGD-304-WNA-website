@@ -1,6 +1,8 @@
 import './videos.css';
 
+//Create Videos component 
 function Videos() {
+    //Create an array of the embedded links to the videos
     const videos = [
         { title: 'video-1', src: "https://www.youtube.com/embed/uvRLd5D3kIc" },
         { title: 'video-2', src: "https://www.youtube.com/embed/VxqXH53EXqs" },
@@ -13,6 +15,7 @@ function Videos() {
             <h3 className="section-name">Videos</h3>
             <div className="videos-content">
                 <div className="videos">
+                    {/* Add YouTube videos to videos section */}
                     {
                         videos.map(video => (
                             <iframe

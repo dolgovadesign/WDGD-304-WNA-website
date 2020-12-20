@@ -1,3 +1,4 @@
+/* Style Navigation bar  */
 .navigation {
     background-color: #ebe8e5;
     position: fixed;
@@ -44,6 +45,7 @@
     text-align: center;
 }
 
+/* Add responsive design to website navigation  */
 @media screen and (max-width: 800px) {
     .navigation {
         position: relative;

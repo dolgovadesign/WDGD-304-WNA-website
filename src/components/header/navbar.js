@@ -1,9 +1,11 @@
 import './navbar.css';
 
+//Create Navigation bar component
 function Navbar() {
     return (
         <div className="navigation">
             <div className="navigation-links">
+                {/* Add navigation links */}
                 <a className="navigation-link" href="#home">Home</a>
                 <a className="navigation-link" href="#about">About</a>
                 <a className="navigation-link" href="#portfolio">Portfolio</a>

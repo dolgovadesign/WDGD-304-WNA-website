@@ -5,7 +5,7 @@
     align-items: center;
     padding: 20px;
 }
-
+/* Add responsive design to About section */
 @media screen and (max-width: 800px) {
     .section-content {
         flex-direction: column;
@@ -24,14 +24,13 @@
     border-radius: 21px;
 }
 
-.about-me {
-    margin-left: 50px;
-}
-
+/* Style About section left part with a photo*/
 .left-section {
     flex-grow: 1;
 }
 
+/* Style About section right part with the text */
 .right-section {
     flex-grow: 2;
+    margin-left: 50px;
 }

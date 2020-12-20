@@ -1,3 +1,4 @@
+/* Style header  within Header section  */
 .header-section {
     position: relative;
 }
@@ -11,6 +12,7 @@
     width: 100%;
 }
 
+/* Style name in the middle of hero-image  */
 .creators-name {
     position: absolute;
     top: 50%;

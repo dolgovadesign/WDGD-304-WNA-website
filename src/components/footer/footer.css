@@ -1,3 +1,7 @@
+/* Style footer  */
 footer {
     text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    color: #111;
+    opacity: 0.7;
 }

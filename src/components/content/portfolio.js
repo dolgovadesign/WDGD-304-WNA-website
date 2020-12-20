@@ -1,3 +1,4 @@
+//Import thumbnail images from images folder within the project
 import './portfolio.css';
 import project1 from '../../components/images/project1.jpg';
 import project2 from '../../components/images/project2.jpg';
@@ -6,7 +7,9 @@ import project4 from '../../components/images/project4.jpg';
 import project5 from '../../components/images/project5.jpg';
 import project6 from '../../components/images/project6.jpg';
 
+//Create Portfolio component
 function Portfolio() {
+    //Create an array of the thumbnail project images with links
     const projects = [
         { image: project1, altText: 'Web Site', link: 'https://elizavetadolgova.ca/web-technology-3/exercise-3/index.html' },
         { image: project2, altText: 'Russian With Liza', link: 'https://elizavetadolgova.ca/learn/somerussian.html' },
@@ -21,6 +24,7 @@ function Portfolio() {
             <h3 className="section-name">Portfolio</h3>
             <div className="portfolio-content">
                 <div className="projects">
+                    {/* Add project link thumbnails to Portfolio section */}
                     {
                         projects.map(project => (
                             <a className="project-thumbnail-link" href={project.link}>
