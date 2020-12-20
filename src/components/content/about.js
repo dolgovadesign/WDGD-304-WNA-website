@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div id="about" className="section">
             <h3 className="section-name">About</h3>
-            <div className="section-content">
+            <div className="about-content">
                 <div className="left-section">
                     <img className="my-photo" src={myphoto} alt="Elizaveta Dolgova" />
                 </div>

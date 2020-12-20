@@ -1,0 +1,19 @@
+.videos-content {
+    justify-content: stretch;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.video-thumbnail {
+    width: 360px;
+    height: 200px;
+    margin: 10px;
+}

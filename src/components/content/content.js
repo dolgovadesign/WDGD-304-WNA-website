@@ -12,8 +12,8 @@ function Content() {
             <About />
             <Portfolio />
             <Videos />
-            <Photography />
-            <Contact />   
+            {/* <Photography />
+            <Contact />    */}
         </div>   
     );
 }

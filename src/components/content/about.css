@@ -1,8 +1,4 @@
-.section {
-    background-color: #ebe8e5;
-}
-
-.section-content {
+.about-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,13 +14,6 @@
     .right-section {
         margin-top: 15px;
     }
-}
-
-.section-name {
-    font-size: 21px;
-    font-family: 'Aclonica', sans-serif;
-    padding: 50px 30px 5px 50px;
-    color: #3c3936;
 }
 
 .my-photo {

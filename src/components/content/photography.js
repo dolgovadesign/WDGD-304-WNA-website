@@ -11,7 +11,7 @@ import photo8 from '../../components/images/photo8.jpg';
 
 function Photography() {
     return (
-        <div id="photography">
+        <div id="photography" className="section">
                 <h3 className="section-name">Photography</h3>
                 <img className="photo1" src={photo1} alt="Elizaveta Dolgova" width="300" height="300" />
                 <img className="photo2" src={photo2} alt="Elizaveta Dolgova" width="300" height="300" />

@@ -1,3 +1,19 @@
-.thumbnail-link {
-    width: 30%;
+.portfolio-content {
+    justify-content: stretch;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project-thumbnail-link {
+    margin: 10px;
+}
+
+.project-thumbnail {
+    max-width: 360px;
 }

@@ -1,7 +1,17 @@
 .content-container {
     max-width: 1500px;
-    height: 1200px;
     margin: 0 auto;
+}
+
+.section {
+    background-color: #ebe8e5;
+}
+
+.section-name {
+    font-size: 21px;
+    font-family: 'Aclonica', sans-serif;
+    padding: 50px 30px 5px 50px;
+    color: #3c3936;
 }
 
 @media screen and (max-width: 1660px) {
